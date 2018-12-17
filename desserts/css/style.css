@@ -1,0 +1,79 @@
+h2 {
+  color:#442222;
+  position:absolute;
+  top:500px;
+  left:50px;
+}
+h1 {
+  color: #442222;
+  position: relative;
+  text-shadow: 5px 5px 13px;
+  top: -20px;
+   -webkit-text-stroke: .1px white;
+}
+#nav2{
+  width:100%;
+  bottom:0;
+  left: 0;
+  right: 0;
+  position: fixed;
+}
+#bg {no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover:
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+body{
+  background: -webkit-;
+  background:;
+  font-family: 'Roboto', sans-serif;
+}
+::-webkit-scrollbar {
+    width: 6px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+table{
+  width:100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.tbl-header{
+  background-color:#442222;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+ 
+.tbl-content{
+  height: 245px;
+  margin-top:0px;
+  overflow:x;
+  border:4px solid #442222;
+  background-color:rgba(60,0,0,.4);
+  
+  
+}
+th{
+  vertical-align:middle;
+  padding:10px 10px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 17px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+td{
+  padding:5px;
+  text-align: center;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 17px;
+  border-bottom: solid 1px rgba(255,255,,0.1);
+  font-style:;
+  color:white;
+}
